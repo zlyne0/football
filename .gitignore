@@ -1,0 +1,10 @@
+/.settings
+/.project
+/.classpath
+/.target/
+target/
+/.idea
+/target/
+/engin/target
+/swing_ui/target
+/target

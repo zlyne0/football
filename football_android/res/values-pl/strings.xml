@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="menuQuit">Wyjście</string>
+    <string name="menuNewGame">Nowa gra</string>
+    <string name="menuResume">Powrót</string>
+    <string name="menuSettings">Ustawienia</string>
+    <string name="menuGameRules">Zasady gry</string>
+    
+    <string name="app_name">Football</string>
+    <string name="action_settings">Ustawienia</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_playfield">PlayfieldActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_menu">Menu</string>
+    <string name="title_activity_new_game_settings">NewGameSettingsActivity</string>
+    <string name="playerOneLabel">Pierwszy gracz</string>
+    <string name="playerTwoLabel">Drugi gracz</string>
+    <string name="playerOneNickHint">Pierwszy</string>
+    <string name="playerTwoNickHint">Drugi</string>
+    <string name="playerLabel">Gracz</string>
+    <string name="computerPlayerLabel">Komputer</string>
+    <string name="humanPlayerLabel">Człowiek</string>
+    <string name="startGameLabel">Start</string>
+    <string name="oneComputerPlayerAllowedMessage">Dozwolony tylko jeden gracz komputerowy</string>
+    <string name="ok">ok</string>
+    <string name="playerWinLabel">wygrał strzelając gola</string>
+    <string name="playerWinByBlockingOpponent">wygrał blokując przeciwnika</string>
+    <string name="colorRed">Kolor czerwony</string>
+    <string name="colorBlue">Kolor niebieski</string>
+    <string-array name="DifficultyLevelNames">
+        <item >Trywialny</item>
+        <item >Łatwy</item>
+        <item >Średni</item>
+    </string-array>
+    <string name="difficultyLevelLabel">Poziom trudności komputera</string>
+    
+    <string name="movesButtonLabel">ruchy</string>    
+    
+    <string name="gameRules1">Gra Football jest logiczną grą dla max dwóch osób.
+Jedna osoba może grać z komputerem.
+Gra polega na stawianiu kresek wzdłuż lub na ukos kratek.
+Gracze stawiaja pojedyncze kreski na przemian.
+Dla uproszczenia każdy gracz ma swój kolor kresek.
+    </string>
+    <string name="gameRules2">
+Istnieje możliwość postawienia wiecej niż jednej kreski
+gdy odbijasz się od innej kreski.        
+    </string>
+    <string name="gameRules3">
+Wygrywa gracz który kreskami dotrze do bramki przeciwnika.        
+    </string>
+    <string name="gameRules4">
+Podczas gry z komputerem może pojawić się kręcąca piłka.
+Piłka sygnalizuje wyszukiwanie najlepszego ruchu przez komputer        
+    </string>
+    
+</resources>

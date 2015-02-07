@@ -1,0 +1,134 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/scrollView1"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" >
+
+	<LinearLayout 
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="vertical"
+	    android:paddingBottom="@dimen/activity_vertical_margin"
+	    android:paddingLeft="@dimen/activity_horizontal_margin"
+	    android:paddingRight="@dimen/activity_horizontal_margin"
+	    android:paddingTop="@dimen/activity_vertical_margin"
+	    tools:context=".NewGameSettingsActivity" >
+
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content" >
+
+	        <TextView
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:paddingStart="0dp"
+	            android:paddingEnd="10dp"
+	            android:text="@string/playerOneLabel" />
+
+	        <TextView
+	            android:id="@+id/textView2"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:paddingStart="5dp"
+	            android:paddingEnd="5dp"
+	            android:background="#FF0000"
+	            android:text="@string/colorRed"
+	            android:textColor="#000000" />
+	    </LinearLayout>
+	
+	    <EditText
+	        android:id="@+id/playerOneNickEditText"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:ems="10"
+	        android:hint="@string/playerOneNickHint" />
+	
+	    <RadioGroup
+	        android:id="@+id/playerOneTypeRadioGroup"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content" >
+	
+	        <RadioButton
+	            android:id="@+id/playerOneTypeRadio0"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:checked="true"
+	            android:text="@string/computerPlayerLabel" />
+	
+	        <RadioButton
+	            android:id="@+id/playerOneTypeRadio1"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:text="@string/humanPlayerLabel" />
+	    </RadioGroup>
+	
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content" >
+
+		    <TextView
+		        android:id="@+id/textView1"
+	            android:paddingStart="0dp"
+	            android:paddingEnd="10dp"
+		        android:layout_width="wrap_content"
+		        android:layout_height="wrap_content"
+		        android:text="@string/playerTwoLabel" />
+
+	        <TextView
+	            android:id="@+id/textView3"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:paddingStart="5dp"
+	            android:paddingEnd="5dp"
+	            android:background="#0000FF"
+	            android:text="@string/colorBlue"
+	            android:textColor="#000000" />
+	    </LinearLayout>
+	
+	    <EditText
+	        android:id="@+id/playerTwoNickEditText"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:ems="10"
+	        android:hint="@string/playerTwoNickHint" />
+	
+	    <RadioGroup
+	        android:id="@+id/playerTwoTypeRadioGroup"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content" >
+	
+	        <RadioButton
+	            android:id="@+id/playerTwoTypeRadio0"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:checked="true"
+	            android:text="@string/computerPlayerLabel" />
+	
+	        <RadioButton
+	            android:id="@+id/playerTwoTypeRadio1"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:checked="true"
+	            android:text="@string/humanPlayerLabel" />
+	
+	    </RadioGroup>
+
+	    <TextView
+	        android:id="@+id/difficultyLevelTextView4"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:text="@string/difficultyLevelLabel" />
+
+	    <Spinner
+	        android:id="@+id/spinner1"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content" />
+	
+	    <Button
+	        android:id="@+id/startPlayButton"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:text="@string/startGameLabel" />
+	
+	</LinearLayout>
+</ScrollView>
